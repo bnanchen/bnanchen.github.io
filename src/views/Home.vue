@@ -3,7 +3,7 @@
     <h1>Bastian Nanchen</h1>
     <nav>
       <a href="https://github.com/bnanchen" target="_blank">
-        Github
+        GitHub
       </a>
       <a href="https://www.linkedin.com/in/bastian-nanchen-a3216140/" target="_blank">
         LinkedIn
