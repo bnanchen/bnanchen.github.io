@@ -7,16 +7,11 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  name: 'App',
-  mounted() {
-    console.log(document.body.style);
-  }
+  name: 'App'
 })
 </script>
 
 <style lang="scss">
-$randomNumber: random(4);
-
 body {
   height: 100%;
   background: url(assets/backgrounds/2.jpeg) no-repeat center center fixed;
