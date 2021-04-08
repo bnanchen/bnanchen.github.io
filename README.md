@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+### Build and deploy the project to bnanchen.github.io
+```
+npm run deploy
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
