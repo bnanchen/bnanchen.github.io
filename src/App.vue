@@ -8,7 +8,7 @@
 import { ref } from 'vue'
 import { RouterView } from 'vue-router'
 
-const path = ref<string>(`/src/assets/backgrounds/${Math.floor(Math.random() * 6)}.jpeg`)
+const path = ref<string>(`assets/backgrounds/${Math.floor(Math.random() * 6)}.jpeg`)
 document.body.style.background = `url('${path.value}') no-repeat center center fixed`;
 </script>
 
