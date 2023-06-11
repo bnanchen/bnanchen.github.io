@@ -1,24 +1,25 @@
 <template>
   <div id="app">
-    <router-view/>
+    <RouterView />
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  name: 'App'
-})
+<script setup lang="ts">
+import { ref } from 'vue'
+import { RouterView } from 'vue-router'
+
+const path = ref<string>(`/src/assets/backgrounds/${Math.floor(Math.random() * 6)}.jpeg`)
+document.body.style.background = `url('${path.value}') no-repeat center center fixed`;
 </script>
 
 <style lang="scss">
 body {
-  height: 100%;
-  background: url(assets/backgrounds/2.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  height: 100% !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  background-size: cover !important;
 }
 
 #app {
