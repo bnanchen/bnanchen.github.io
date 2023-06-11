@@ -2,26 +2,18 @@
   <div class="home">
     <h1>Bastian Nanchen</h1>
     <nav>
-      <a href="https://github.com/bnanchen" target="_blank">
-        GitHub
-      </a>
-      <a href="https://www.linkedin.com/in/bastian-nanchen-a3216140/" target="_blank">
-        LinkedIn
-      </a>
-      <a href="https://letterboxd.com/bnanchen/" target="_blank">
-        Letterboxd
-      </a>
-      <a href="mailto:nanchenbastian@gmail.com">
-        Contact Me
-      </a>
+      <a href="https://github.com/bnanchen" target="_blank"> GitHub </a>
+      <a href="https://www.linkedin.com/in/bastian-nanchen-a3216140/" target="_blank"> LinkedIn </a>
+      <a href="https://letterboxd.com/bnanchen/" target="_blank"> Letterboxd </a>
+      <a href="mailto:nanchenbastian@gmail.com"> Contact Me </a>
     </nav>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import { defineComponent } from 'vue';
 
-export default Vue.extend({
+export default defineComponent({
   name: 'Home'
 });
 </script>
