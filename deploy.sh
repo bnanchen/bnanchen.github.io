@@ -10,6 +10,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:bnanchen/bastiannanchen.github.io.git master:gh-pages
+git push -f git@github.com:bnanchen/bnanchen.github.io.git master:gh-pages
 cd -
 rm -rf dist
